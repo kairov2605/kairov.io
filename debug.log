@@ -1,0 +1,4 @@
+[1111/143729.973:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1111/174034.091:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1112/183905.328:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
+[1112/193126.315:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Kairov\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\09792aa3-3492-49ed-a9a4-8aab395da94b: Системе не удается найти указанный путь. (0x3)

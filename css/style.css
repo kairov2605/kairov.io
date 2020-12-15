@@ -1,0 +1,125 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+body {
+display: flex;
+min-height: 100vh;
+}
+
+
+.left-side{
+  min-width: 50%;
+  min-height: 100%;
+  margin-bottom: auto;
+    margin-top: auto;
+}
+
+.right-side{
+    min-width: 50%;
+  height: 100%;
+  right: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.container{
+  max-height: 465px;
+}
+
+.firstname{
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: normal;
+font-size: 64px;
+line-height: 64px;
+}
+
+.lastname{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 96px;
+line-height: 112px;
+}
+
+.spec{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+color: #665858;
+
+}
+
+.info{
+  display: flex;
+  margin-top: 13px;
+}
+.geo{
+  margin-left: 85px;
+  padding-left: 10px;
+    font-family: Roboto;
+font-style: bold;
+font-weight: bold;
+font-size: 16px;
+}
+
+.geo::before{
+content:  url('../img/geo.svg');
+height: 12px;
+width: 12px;
+}
+
+.age{
+  margin-left: 20px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+}
+
+.profile-item{
+   display: inline; 
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 68px;
+justify-content:space-between;
+
+color: #206AC1;
+}
+
+.profile-list{
+  margin-top: 0px;
+}
